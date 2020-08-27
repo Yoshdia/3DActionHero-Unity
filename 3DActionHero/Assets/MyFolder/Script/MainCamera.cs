@@ -11,8 +11,8 @@ public class MainCamera : MonoBehaviour
     //カメラを動かすキー(右
     const int RotateBotton = 1;
     //回転角度の最小最大値
-    const float AngleLimitMax = 60f;
-    const float AngleLimitMin = -60f;
+    const float AngleLimitMax = 40f;
+    const float AngleLimitMin = -40f;
     //回転速度
     [SerializeField]
     private float rotate_speed = 1.0f;
@@ -25,7 +25,7 @@ public class MainCamera : MonoBehaviour
     [SerializeField]
     private const float CanZoomMax = 20;
     [SerializeField]
-    private const float CanZoomMin = 4;
+    private const float CanZoomMin = 3;
 
 
     void Awake()
